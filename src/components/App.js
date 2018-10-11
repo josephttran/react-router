@@ -3,6 +3,7 @@ import { Switch } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
+import './App.css';
 import Navbar from './Navbar/Navbar.js';
 import Home from './Pages/Home.js';
 import About from './/Pages/About.js';
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <div className="nav-bar">
+          <div>
             <Navbar /> 
           </div>       
           <div className="container">

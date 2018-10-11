@@ -1,21 +1,11 @@
 .app {
   margin: 0;
   padding: 0;
-  background-color: #bbb;
-  color: #000;
-}
-
-.nav-bar {
-  padding: 2%;
-  display: block;
-  background-color: #fff;
-  color: #000;
-  text-decoration: none;
+  text-align: center;
 }
 
 .container {
-  padding: 1%;
-  background-color: #282c34;
-  color: white;
-  text-align: center;
+  padding: 2%;
+  background-color: #bbb;
+  color: #000;
 }
